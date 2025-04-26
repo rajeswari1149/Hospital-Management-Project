@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surgery Information</title>
+    <!-- Add Bootstrap for styling -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="my-4">Surgical Info</h1>
+
+        <table class="table table-bordered" id="surgeryList">
+            <thead>
+                <tr>
+                    <th>Date & Time</th>
+                    <th>OT ID</th>
+                    <th>Patient Name</th>
+                    <th>Surgery Type</th>
+                    <th>Anesthesia Type</th>
+                    <th>Report</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Surgery rows will be inserted here dynamically -->
+            </tbody>
+        </table>
+
+        <h4 class="my-4">Add Surgery Info</h4>
+        <form id="surgeryForm">
+            <div class="form-group">
+                <label for="patientName">Patient Name</label>
+                <input type="text" class="form-control" id="patientName" placeholder="Patient Name">
+            </div>
+            <div class="form-group">
+                <label for="anesthesiologist">Anesthesiologist</label>
+                <input type="text" class="form-control" id="anesthesiologist" placeholder="Anesthesiologist Name">
+            </div>
+            <button type="submit" class="btn btn-primary">Add Surgery Info</button>
+        </form>
+    </div>
+
+    <!-- Add Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    
+    <!-- Link to your custom script -->
+    <script src="surgeryinfo.js"></script>
+</body>
+</html>

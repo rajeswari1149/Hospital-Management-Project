@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Base Page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <a href="#" class="brand">HospitaLogix</a>
+    <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+    <div class="navigation">
+      <div class="navigation-items">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#precautions">Precautions</a>
+        <a href="#contact">Contact</a>
+        <button class="btn" onclick="window.location.href='registerlogin.html'">SignUp</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <video class="video-slide" src="assests/doc.mp4" autoplay muted loop></video>
+    <div class="content">
+      <h1>Operation Schedular<br><span style="color:#fff">Hospital Management</span></h1>
+      <p>Our platform streamlines the complex task of managing surgical schedules and operating room assignments.
+        Designed to handle dynamic hospital scenarios, it allows efficient scheduling, monitoring, and updating of
+        surgeries—factoring in room availability, doctor preferences, emergencies, and more. The system supports
+        detailed procedure records, staff assignments, resource tracking, and report attachments. With dedicated
+        interfaces for OT staff and administrators, it ensures smooth coordination, improved resource utilization, and
+        better surgical care delivery.
+      </p>
+      <a href="/registerlogin.html">Book Now</a>
+    </div>
+    <div class="media-icons">
+      <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+    </div>
+  </section>
+  <section class="about-container" id="about">
+    <div class="about-image">
+      <img src="assests/doctor4.jpg" alt="about pic" />
+    </div>
+    <div class="about-content">
+      <h2 class="section-header">ABOUT US</h2>
+      <p>At our core, we are a team of innovators and healthcare technology enthusiasts dedicated to improving the way
+        hospitals manage their surgical operations. Our Hospital Operation Scheduler website was built with a mission to
+        solve the critical logistical challenges that come with managing operation theaters (OTs) in modern hospitals.
+        Traditionally, surgical schedules are maintained using static systems, which often require manual updates and
+        adjustments. This process can be time-consuming, prone to error, and inefficient when dealing with real-world
+        complexities such as last-minute changes, emergencies, or resource constraints.
+
+        Our platform introduces a dynamic, data-driven model that transforms static timetables into a responsive
+        scheduling system tailored to each hospital's specific needs. It supports real-time updates for surgery
+        additions, postponements, cancellations, and emergency cases. The system allows administrators to assign
+        doctors, anesthesiologists, assistant surgeons, and OT nurses with precision while keeping track of pre- and
+        post-operative events, required drugs and instruments, and surgical reports such as operative charts and notes.
+        We believe in empowering healthcare professionals with intuitive and efficient tools that make their jobs easier and improve patient care. 
+      </p>
+    </div>
+  </section>
+
+  <!-- Features section -->
+  <section class="pre-container" id="precautions">
+    <div class="pre-image">
+      <img src="assests/doctor2.jpg" alt="precautions image" />
+    </div>
+    <div class="pre-content">
+      <p class="section-header">FEATURES</p>
+      <h2 class="section-subheader">The <span>safety rules</span> everyone should know</h2>
+      <ul class="pre-list">
+        <li>
+          <span><i class="fa-solid fa-calendar-days"></i></span>
+          <div>
+            <h4>Dynamic OT Scheduling</h4>
+            <p>Efficiently manage and update operation theater schedules in real-time, accommodating new surgeries, postponements, cancellations, and emergencies.</p>
+          </div>
+        </li>
+        <li>
+          <span><i class="fa-solid fa-chart-simple"></i></span>
+          <div>
+            <h4>Comprehensive Procedure Tracking</h4>
+            <p>Maintain detailed records for each surgery, including date & time, OT ID, anesthesia details, surgical staff, medications, instruments, and surgical reports.</p>
+          </div>
+        </li>
+        <li>
+          <span><i class="fa-solid fa-user"></i></span>
+          <div>
+            <h4>User-Friendly Interfaces</h4>
+            <p>Provide intuitive dashboards for OT staff and administrators to view, manage, and analyze daily activities, past and upcoming surgeries, and overall OT efficiency.</p>
+          </div>
+        </li>
+        <li>
+          <span><i class="fa-solid fa-person"></i></span>
+          <div>
+            <h4>Resource & Staff Allocation</h4>
+            <p>Streamline the assignment of doctors, anesthesiologists, nurses, and special equipment for each procedure, ensuring optimal utilization of hospital resources.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact form -->
+  <section class="contact-container" id="contact">
+    <div class="form-box">
+      <h1 class="section-header">Contact Us</h1>
+      <p class="section-subheader">A easier way to get in touch</p>
+      <form>
+        <input type="text" placeholder="Your name" required>
+        <input type="email" placeholder="Your email" required>
+        <input type="text" placeholder="Your phone number" required>
+        <textarea cols="30" rows="6" placeholder="Your message" required></textarea>
+        <button class="btn">Send</button>
+      </form>
+    </div>
+    <div class="map-box">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118016.30738832062!2d88.34736573297477!3d22.535469075973563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1744219903658!5m2!1sen!2sin"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+
+</html>
