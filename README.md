@@ -1,5 +1,3 @@
-# Hospital-Management-Project
-Hospital-Management
 # 🏥 Hospital Management System
 
 A web-based Hospital Management System built using **HTML**, **CSS**, **JavaScript**, and **Firebase**. It includes functionality for different roles such as **Doctors**, **Admins**, **Nurses**, and **Patients**, along with real-time data management using Firebase Firestore and Authentication.
