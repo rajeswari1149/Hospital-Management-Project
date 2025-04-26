@@ -17,14 +17,14 @@ import {
 } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
 
 // Firebase config
-const firebaseConfig = {
-  apiKey: "AIzaSyAlsMiFO3-NyQ8aRoBdXUwv3AAjeEprJlM",
-  authDomain: "hospitalmanagement-3dcb3.firebaseapp.com",
-  projectId: "hospitalmanagement-3dcb3",
-  storageBucket: "hospitalmanagement-3dcb3.appspot.com",
-  messagingSenderId: "345238179108",
-  appId: "1:345238179108:web:9745ca307e426330b8b7b1"
-};
+ const firebaseConfig = {
+    apiKey: YOUR-API-KEY,
+    authDomain: YOUR-AUTH-DOMAIN,
+    projectId: YOUR-PROJECT-ID,
+    storageBucket: YOUR-STORAGE-BUCKET,
+    messagingSenderId: YOUR-MESSAGING-ID,
+    appId: YOUR-API-ID
+  };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
