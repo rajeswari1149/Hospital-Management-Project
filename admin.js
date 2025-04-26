@@ -18,12 +18,12 @@ import {
   
   // Firebase config
   const firebaseConfig = {
-    apiKey: "AIzaSyAlsMiFO3-NyQ8aRoBdXUwv3AAjeEprJlM",
-    authDomain: "hospitalmanagement-3dcb3.firebaseapp.com",
-    projectId: "hospitalmanagement-3dcb3",
-    storageBucket: "hospitalmanagement-3dcb3.firebasestorage.app",
-    messagingSenderId: "345238179108",
-    appId: "1:345238179108:web:9745ca307e426330b8b7b1"
+    apiKey: YOUR-API-KEY,
+    authDomain: YOUR-AUTH-DOMAIN,
+    projectId: YOUR-PROJECT-ID,
+    storageBucket: YOUR-STORAGE-BUCKET,
+    messagingSenderId: YOUR-MESSAGING-ID,
+    appId: YOUR-API-ID
   };
   
   // Initialize Firebase
